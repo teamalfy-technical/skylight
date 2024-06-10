@@ -134,7 +134,7 @@ function App(): JSX.Element {
               <button
                 type="submit"
                 disabled={loading}
-                className={`w-full py-4 text-white font-montserrat bg-[#004589] rounded-lg mb-1 ${
+                className={`w-full py-4 text-white font-montserrat bg-[#A97D32] rounded-lg mb-1 ${
                   loading ? "opacity-50 cursor-not-allowed" : "cursor-pointer"
                 }`}
               >
@@ -146,7 +146,7 @@ function App(): JSX.Element {
         </form>
       </div>
       <div className="w-full blur-[2px]">
-        <div className="w-full h-[70vh] bg-[#004589]"></div>
+        <div className="w-full h-[70vh] bg-[#A97D32]"></div>
         <div className="h-[30vh] w-[120%] relative top-[-5rem] rotate-[-5deg] bg-[white]"></div>
       </div>
     </div>
